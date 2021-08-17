@@ -1,0 +1,17 @@
+<package>
+  <name>oculus_pack</name>
+  <version>0.1.0</version>
+  <description>Telequad Toolkit: Oculus packages</description>
+  <maintainer email="bnb32@cornell.edu">Brandon Benton</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>oculus_driver</run_depend>
+  <run_depend>oculus_msgs</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

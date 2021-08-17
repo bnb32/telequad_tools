@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="ovr_zed_sub" type="ovr_zed_sub" name="ovr_zed_sub" output="screen">
+  </node>
+</launch>

@@ -1,0 +1,10 @@
+#version 120
+
+uniform sampler2D rawTexture;
+
+void main()
+{
+    vec2 index = texture2D(rawTexture, gl_TexCoord[0].st).xy;
+
+    gl_FragColor = vec4(texture2D(rawTexture, index).bgr, 1.0);
+}    

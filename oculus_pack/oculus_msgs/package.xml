@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>oculus_msgs</name>
+  <version>0.0.0</version>
+  <description>Telequad Toolkit: oculus_msgs package</description>
+
+  <maintainer email="bnb32@cornell.edu">Brandon Benton</maintainer>
+
+  <license>MIT</license>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+</package>

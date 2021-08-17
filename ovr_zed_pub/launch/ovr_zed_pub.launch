@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="ovr_zed_pub" type="ovr_zed_pub" name="ovr_zed_pub" output="screen">
+  </node>
+</launch>
